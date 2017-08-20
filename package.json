@@ -4,7 +4,7 @@
   "description": "Chart the Stock market",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node server.js ",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack-dev-server --inline --hot",
     "prod": "webpack -wd"
   },
@@ -17,7 +17,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "body-parser": "^1.17.2",
     "css-loader": "^0.28.4",
     "express": "^4.15.3",
     "extract-text-webpack-plugin": "^3.0.0",
