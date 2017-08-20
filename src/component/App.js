@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import * as constants from '../../constant.js'
-import { API_KEY_GEOCODE, API_KEY_PLACE } from '../../config.js'
 import axios from 'axios'
 import '../app.css'
 
