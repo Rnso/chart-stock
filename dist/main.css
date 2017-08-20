@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    color: black;
+}
+.stock{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black
+}
+.footer{
+    color: white
+}
